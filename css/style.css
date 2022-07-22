@@ -266,6 +266,12 @@ body {
 .cv-content-end-image img {
   max-width: 100%;
 }
+.cv-content-end-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .nav-pills > li.active > a,
 .nav > li > a:hover,
