@@ -39,8 +39,9 @@
                 height: 150px;
 
                 border-radius: 100px;
-                object-position: 100% 0;
-                object-fit: contain;
+                object-position: center;
+                object-fit: cover;
+
                 border: 7px solid #86a697;
 
                 &:hover {
@@ -141,6 +142,7 @@
 
                 h3 {
                     margin-top: 10px;
+                    font-weight: bold;
                 }
             }
 
@@ -162,6 +164,16 @@
             &-text {
                 margin-top: 15px;
             }
+
+            &-projects {
+                display: flex;
+                flex-direction: column-reverse;
+            }
+        }
+
+        &-edu-list {
+            display: flex;
+            flex-direction: column-reverse;
         }
 
         &-edu-name {
